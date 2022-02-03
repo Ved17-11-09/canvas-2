@@ -1,0 +1,32 @@
+body {
+    color: white;
+    background-image: linear-gradient(#3a24d4,#b4038b,#00bf44,#f51f39);
+}
+
+canvas {
+    animation-name: do_it;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    margin-top: 150px;
+}
+
+@keyframes do_it {
+    from{box-shadow:5px 5px 40px limegreen;} 
+    to{box-shadow:5px 5px 40px rgb(211, 126, 15);}
+}
+
+#show-sketch {
+    float: right;
+}
+
+h1 {
+    background-color: chocolate;
+    text-align: center;
+    letter-spacing: 10px;
+    font-family: 'Rubik Beastly', cursive;
+}
+
+.para {
+    font-size: 40px;
+    padding: 20px;
+}
